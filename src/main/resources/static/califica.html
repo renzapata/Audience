@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/funcionesCliente.js"></script>
+    </head>
+    <body>
+        <h1>Cliente</h1>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="categoria.html">Categoria</a></li>
+            <li><a href="Auditorio.html">Auditorio</a></li>
+            <li><a href="mensajes.html">Mensajes</a></li>
+            <li><a href="reservaciones.html">Reservaciones</a></li>
+            <li><a href="reportes.html">Reportes</a></li>
+        </ul>
+
+        <div>
+            <input type="number" id="califica" placeholder="calificacion">
+            <input type="text" id="messageText" placeholder="mensaje">
+            <input type="number" id="IdReserva" placeholder="Reserva">
+
+        </div>
+        <button onclick="postCliente()">
+            Crear Cliente
+        </button>
+
+        <script type="text/javascript">
+            window.onload = getCliente();
+        </script>
+
+        <div id="resultado1"></div>
+    </body>
+
+</html>

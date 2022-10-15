@@ -1,0 +1,17 @@
+.boton{
+    background:yellow;
+    width:600px;
+    height:40px;
+    border-radius:25px;
+    border:none;
+    cursor:pointer;
+    font-size:26px;
+    display:inline-block;
+      text-align:center;
+    text-decoration:none;
+    padding-top:8px;
+  }
+  .boton:hover{
+    background:black;
+    color:yellow;
+  }
